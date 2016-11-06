@@ -13,5 +13,10 @@ namespace XamarinFormsSample
         {
             InitializeComponent();
         }
+
+		public void  btn_Clicked_Now(object sender, EventArgs ea)
+		{
+				System.Diagnostics.Debug.WriteLine("BUTTON CLICKED RIGHT NOW....");
+		}
     }
 }
