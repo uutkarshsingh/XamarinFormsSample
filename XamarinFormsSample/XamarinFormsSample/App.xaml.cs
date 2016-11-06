@@ -9,32 +9,12 @@ namespace XamarinFormsSample
 {
     public partial class App : Application
     {
+
+
         public App()
         {
-            InitializeComponent();
 
-			Button btn = new Button
-			{
-				Text = "PREss the Button"
-			}
-			;
-				MainPage = new ContentPage
-			{
-				Content = new StackLayout
-				{
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label{
-							HorizontalTextAlignment = TextAlignment.Center,
-							Text = "Hand Coded Xaamrin Forms Main Page"
-						} ,
-						btn
-					}
-				}
-			};		
-		
-
-
+			MainPage = new MainPage();
 		}
 
         protected override void OnStart()
